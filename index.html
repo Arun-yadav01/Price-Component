@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width:1500px;", initial-scale=1.0">
+    <title> Single Price Grid Component</title>
+    <style>
+         *{ margin: 10px;
+            padding:0px;
+        }
+    </style>
+     <style>
+        .parentDiv { 
+            display: grid;
+            grid-template-columns:50% 50%;
+            height:360px;
+            width: 625px;
+            margin: 0px;
+            position: absolute;
+            left:30%;
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            line-height:20px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <style > 
+     .childDiv {
+        color: white;
+        height: 200px;  
+        width: 300px;
+        /* line-height:30px;; */
+        position: absolute;
+        bottom: 0vh ;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    button:hover {
+        background-color: antiquewhite;
+    }
+    button{
+        background-color: #d2df1b;
+               color:white;height: 35px;
+               width:170px;
+               border-radius: 5px;cursor: pointer;
+    }
+      </style>
+</head>
+<body>
+    <div class="parentDiv" >
+        <section>
+         <pre style="color: rgb(22, 188, 190);font-size:x-large;">  join our community </pre>
+
+    <pre style="color: rgba(237, 234, 34, 0.818); font-size: large;">  30-day,  hassle-free money back guarantee.</pre>
+ <pre style="color: grey; font-size: medium;">   Gain access to our full library of tutorials along with expert code reviews.
+   Prefect for any developers who are serious about honing their skills.</Pre>
+    </section>
+    <section class="childDiv" style="background-color:#13beb8fe; line-height:30px; left:0vh; padding-left: 5px;">
+        
+        
+        <pre style="font-size:large;"><b>Monthly Subscription</b></pre>
+<pre><b style="font-size: xx-large;">$29</b>pre month </pre> 
+        <pre style="font-size:medium;margin: 0px;"><b> Full access for less than $1 a day</b></pre>
+        <button type="submit"> 
+                 <b>Sign Up</b>
+        </button>
+      </section>
+    <section class="childDiv" style="background-color:#13b9b0ca; line-height:20px;  right: 0vh;">
+          <pre style="font-size: x-large;" >   Why Us</pre>
+    <pre >
+    Tutorials by industry experts
+    peers &expert code review 
+    coding exerises
+    access to our GitHub repos
+    Community forum
+    Flashcard decks
+    New videos every week.
+    </pre>
+    </section>
+</body>
+</html>
